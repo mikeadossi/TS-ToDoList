@@ -1,0 +1,24 @@
+{
+  "name": "ts-to-do-list",
+  "version": "1.0.0",
+  "description": "create an app using react, express, and postgresql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starrpatty28/TS-ToDoList.git"
+  },
+  "author": "@mikeadossi @starrpatty28",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starrpatty28/TS-ToDoList/issues"
+  },
+  "homepage": "https://github.com/starrpatty28/TS-ToDoList#readme",
+  "dependencies": {
+    "create-react-app": "^1.0.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
