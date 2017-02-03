@@ -21,12 +21,15 @@ module.exports = {
         {
             test: /\.jsx?$/,
             exclude: /node_modules/,
-            loaders: ['react-hot', 'babel?presets[]=react,presets[]=es2015']
+            loader: 'babel-loader',
+             query: {
+                 presets: ['es2015', 'react']
         }
-        ]
-    },
+        }
+    ]
+},
     plugins: [ // add plugins independent of webpack
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoErrorsPlugin()
     ]
-};
+}
