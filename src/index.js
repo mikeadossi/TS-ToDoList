@@ -1,9 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from 'app.js'
+import Nav from 'nav.js'
 
 render(
-  <App />,
+  <Nav />,
+    
   document.getElementById('root')
 )
 
