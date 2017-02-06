@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Nav from 'nav.js'
+import App from 'components/app'
 
 render(
-  <Nav />,
-    
+  <App />,
+
   document.getElementById('root')
 )
 
