@@ -24,6 +24,7 @@ The App: As a user...
 - [X] Create a database of to do list items.
 - [X] Follow good Git team behaviors (do all your work on branches & submit pull requests for review before merging to master)
 - [X] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
+
 #### Stretch Goals/Nice to Have's:
 - [ ] Deploy the app to heroku. 
 - [ ] I can log into my account.
