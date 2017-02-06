@@ -17,3 +17,7 @@ input{
   padding:20px;
   margin: -8px -8px 20px -8px;
 }
+.taskInputs{
+  background-color:transparent;
+  border:none;
+}

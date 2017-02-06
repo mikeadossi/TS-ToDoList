@@ -12,7 +12,7 @@ export default class todos_container extends React.Component{
     return(
       <div>
         {allTodos.map((task, index) => <div key={index.toString()}>
-          <input ref={input => this.idsToInputs[task.id] = input} defaultValue={task.task} />
+          <input className='taskInputs' ref={input => this.idsToInputs[task.id] = input} defaultValue={task.task} />
           <button onClick={this.onDelete.bind(this, task.id)}>delete</button>
           <button onClick={this.onSave.bind(this, task.id)}>save</button>
           </div>)}
