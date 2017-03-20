@@ -1,5 +1,8 @@
 # TS-ToDoList
+
 ## Description
+
+Simple Todo List app created in React with a frontend and backend
 
 ## Run Code
 
